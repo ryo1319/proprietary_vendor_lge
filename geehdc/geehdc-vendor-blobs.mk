@@ -170,4 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/geehdc/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
     vendor/lge/geehdc/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-    vendor/lge/geehdc/proprietary/lib/libgsl.so:system/lib/libgsl.so
+    vendor/lge/geehdc/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/geehdc/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
+    vendor/lge/geehdc/proprietary/app/SPModePushNotifier.apk:system/lib/SPModePushNotifier.apk
