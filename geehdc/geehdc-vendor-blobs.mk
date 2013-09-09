@@ -110,6 +110,8 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/geehdc/proprietary/lib/libxml.so:system/lib/libxml.so \
     vendor/lge/geehdc/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
+    vendor/lge/geehdc/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
+    vendor/lge/geehdc/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/geehdc/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/geehdc/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/lge/geehdc/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
@@ -133,6 +135,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/geehdc/proprietary/bin/qmiproxy:system/bin/qmiproxy \
     vendor/lge/geehdc/proprietary/bin/rild:system/bin/rild \
+    vendor/lge/geehdc/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/lge/geehdc/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/geehdc/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/geehdc/proprietary/bin/qosmgr:system/bin/qosmgr \
