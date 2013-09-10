@@ -109,6 +109,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
     vendor/lge/geehdc/proprietary/lib/libsensor_user_cal.so:system/lib/libsensor_user_cal.so \
     vendor/lge/geehdc/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/lge/geehdc/proprietary/lib/soundfx/libfmas.so:system/lib/soundfx/libfmas.so \
     vendor/lge/geehdc/proprietary/lib/lib_dlb_msd.so:system/lib/lib_dlb_msd.so \
     vendor/lge/geehdc/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
     vendor/lge/geehdc/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
