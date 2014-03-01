@@ -86,7 +86,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/L01F/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/L01F/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/L01F/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lge/L01F/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
+    vendor/lge/L01F/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/L01F/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/L01F/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/L01F/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
