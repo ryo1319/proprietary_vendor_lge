@@ -23,6 +23,9 @@ PRODUCT_COPY_FILES += \
     vendor/lge/LGL22/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
     vendor/lge/LGL22/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
     vendor/lge/LGL22/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
+    vendor/lge/LGL22/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
+    vendor/lge/LGL22/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
+    vendor/lge/LGL22/proprietary/app/LgNfc.apk:system/app/LgNfc.apk \
     vendor/lge/LGL22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/earlyuninstallable/MobileFeliCaMenuMainApp.apk \
     vendor/lge/LGL22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/earlyuninstallable/MobileFeliCaWebPlugin.apk \
     vendor/lge/LGL22/proprietary/earlyuninstallable/iD.apk:system/earlyuninstallable/iD.apk \
@@ -90,7 +93,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/LGL22/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
     vendor/lge/LGL22/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/lge/LGL22/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
-    vendor/lge/LGL22/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
+    vendor/lge/LGL22/proprietary/lib/hw/camera.msm8974.so:system/lib/hw/camera.msm8974.so \
     vendor/lge/LGL22/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/LGL22/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/LGL22/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
