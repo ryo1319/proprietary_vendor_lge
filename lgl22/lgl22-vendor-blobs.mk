@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
     vendor/lge/lgl22/proprietary/app/FeliCaRemoteLock.apk:system/app/FeliCaRemoteLock.apk \
     vendor/lge/lgl22/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
-    vendor/lge/lgl22/proprietary/app/LgNfc.apk:system/app/LgNfc.apk \
     vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/earlyuninstallable/MobileFeliCaMenuMainApp.apk \
     vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/earlyuninstallable/MobileFeliCaWebPlugin.apk \
     vendor/lge/lgl22/proprietary/earlyuninstallable/iD.apk:system/earlyuninstallable/iD.apk \
