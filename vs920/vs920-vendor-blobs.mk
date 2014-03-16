@@ -43,6 +43,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/vs920/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/lge/vs920/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/lge/vs920/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+	vendor/lge/vs920/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
 	vendor/lge/vs920/proprietary/lib/libnv.so:system/lib/libnv.so \
 	vendor/lge/vs920/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/lge/vs920/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -105,10 +106,6 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
 	vendor/lge/vs920/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
-
-# Camera
-PRODUCT_COPY_FILES += \
-	vendor/lge/vs920/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
 
 # Misc services
 PRODUCT_COPY_FILES += \
