@@ -281,5 +281,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/lgl22/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/lge/lgl22/proprietary/vendor/lib/pp_proc_plugin.so:system/vendor/lib/pp_proc_plugin.so \
+    vendor/lge/lgl22/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/lgl22/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/lgl22/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
