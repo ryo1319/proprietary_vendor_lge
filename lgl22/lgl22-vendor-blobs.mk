@@ -88,8 +88,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/lgl22/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/lgl22/proprietary/lib/libHDR.so:system/lib/libHDR.so \
-    vendor/lge/lgl22/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
-    vendor/lge/lgl22/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/lgl22/proprietary/lib/libmorphoimageconverter_4.so:/system/lib/libmorphoimageconverter_4.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_image_stab31.so:/system/lib/libmorpho_image_stab31.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_movie_stabilization.so:/system/lib/libmorpho_movie_stabilization.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_noise_reduction.so:/system/lib/libmorpho_noise_reduction.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_panorama_wa_4.so:/system/lib/libmorpho_panorama_wa_4.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_panorama_wa_viewer.so:/system/lib/libmorpho_panorama_wa_viewer.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_sensor_fusion_4.so:/system/lib/libmorpho_sensor_fusion_4.so\
+    vendor/lge/lgl22/proprietary/lib/libmorpho_video_denoiser.so:/system/lib/libmorpho_video_denoiser.so\
     vendor/lge/lgl22/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/lgl22/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
     vendor/lge/lgl22/proprietary/lib/libnfc_ndef_sony.so:system/lib/libnfc_ndef_sony.so \
