@@ -19,12 +19,13 @@ PRODUCT_COPY_FILES := \
     vendor/lge/lgl22/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
+    vendor/lge/lgl22/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
-    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/earlyuninstallable/MobileFeliCaMenuMainApp.apk \
-    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/earlyuninstallable/MobileFeliCaWebPlugin.apk \
+    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk \
+    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/app/MobileFeliCaWebPlugin.apk \
     vendor/lge/lgl22/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
