@@ -291,3 +291,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/lgl22/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
     vendor/lge/lgl22/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/lgl22/proprietary/framewok/com.lge.core.jar:system/framewok/com.lge.core.jar \
+    vendor/lge/lgl22/proprietary/framewok/oem-services.jar:system/framewok/oem-services.jar
