@@ -24,8 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
     vendor/lge/lgl22/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
-    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk \
-    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/app/MobileFeliCaWebPlugin.apk \
     vendor/lge/lgl22/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -293,5 +291,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/lgl22/proprietary/framewok/com.lge.core.jar:system/framewok/com.lge.core.jar \
-    vendor/lge/lgl22/proprietary/framewok/oem-services.jar:system/framewok/oem-services.jar
+    vendor/lge/lgl22/proprietary/framework/com.lge.core.jar:system/framework/com.lge.core.jar \
+    vendor/lge/lgl22/proprietary/framework/oem-services.jar:system/framework/oem-services.jar
+
+PRODUCT_COPY_FILES += \
+    vendor/lge/lgl22/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
+    vendor/lge/lgl22/proprietary/lib/liblgderp.so:system/lib/liblgderp.so
+
+#for test
+#PRODUCT_COPY_FILES += \
+#    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk
+#    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/app/MobileFeliCaWebPlugin.apk
+
