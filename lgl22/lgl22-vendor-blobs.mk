@@ -296,8 +296,8 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
-    vendor/lge/lgl22/proprietary/lib/liblgderp.so:system/lib/liblgderp.so
-
+    vendor/lge/lgl22/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
+    vendor/lge/lgl22/proprietary/lib/libxml2.so:system/lib/libxml2.so
 #for test
 #PRODUCT_COPY_FILES += \
 #    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk
