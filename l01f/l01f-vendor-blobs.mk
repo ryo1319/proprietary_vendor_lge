@@ -254,7 +254,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/vendor/lib/libsubsystem_control.so:system/vendor/lib/libsubsystem_control.so \
     vendor/lge/l01f/proprietary/vendor/lib/libsurround_proc.so:system/vendor/lib/libsurround_proc.so \
     vendor/lge/l01f/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
-    vendor/lge/l01f/proprietary/vendor/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
+    vendor/lge/l01f/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/lge/l01f/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/lge/l01f/proprietary/vendor/lib/libtzplayready.so:system/vendor/lib/libtzplayready.so \
     vendor/lge/l01f/proprietary/vendor/lib/libualutil.so:system/vendor/lib/libualutil.so \
