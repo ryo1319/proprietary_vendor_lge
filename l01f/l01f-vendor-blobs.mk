@@ -19,9 +19,10 @@ PRODUCT_COPY_FILES := \
     vendor/lge/l01f/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/l01f/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
+    vendor/lge/l01f/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
     vendor/lge/l01f/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
     vendor/lge/l01f/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
+    vendor/lge/l01f/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
     vendor/lge/l01f/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
     vendor/lge/l01f/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/earlyuninstallable/MobileFeliCaMenuMainApp.apk \
     vendor/lge/l01f/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/earlyuninstallable/MobileFeliCaWebPlugin.apk \
