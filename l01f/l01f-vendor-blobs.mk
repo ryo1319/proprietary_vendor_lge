@@ -18,6 +18,7 @@
 PRODUCT_COPY_FILES := \
     vendor/lge/l01f/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
+#felica
 PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
     vendor/lge/l01f/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
@@ -27,6 +28,23 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/earlyuninstallable/MobileFeliCaMenuMainApp.apk \
     vendor/lge/l01f/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/earlyuninstallable/MobileFeliCaWebPlugin.apk \
     vendor/lge/l01f/proprietary/earlyuninstallable/iD.apk:system/earlyuninstallable/iD.apk \
+    vendor/lge/l01f/proprietary/etc/felica/air.png:system/etc/felica/air.png \
+    vendor/lge/l01f/proprietary/etc/felica/id.png:system/etc/felica/id.png \
+    vendor/lge/l01f/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+    vendor/lge/l01f/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
+    vendor/lge/l01f/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
+    vendor/lge/l01f/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+    vendor/lge/l01f/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+    vendor/lge/l01f/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
+    vendor/lge/l01f/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
+    vendor/lge/l01f/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
+    vendor/lge/l01f/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+    vendor/lge/l01f/proprietary/etc/felica/money.png:system/etc/felica/money.png \
+    vendor/lge/l01f/proprietary/etc/felica/train.png:system/etc/felica/train.png \
+    vendor/lge/l01f/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
+    vendor/lge/l01f/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+
+PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/l01f/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/lge/l01f/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -46,21 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/lge/l01f/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/lge/l01f/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
-    vendor/lge/l01f/proprietary/etc/felica/air.png:system/etc/felica/air.png \
-    vendor/lge/l01f/proprietary/etc/felica/id.png:system/etc/felica/id.png \
-    vendor/lge/l01f/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
-    vendor/lge/l01f/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
-    vendor/lge/l01f/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
-    vendor/lge/l01f/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
-    vendor/lge/l01f/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
-    vendor/lge/l01f/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
-    vendor/lge/l01f/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
-    vendor/lge/l01f/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
-    vendor/lge/l01f/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
-    vendor/lge/l01f/proprietary/etc/felica/money.png:system/etc/felica/money.png \
-    vendor/lge/l01f/proprietary/etc/felica/train.png:system/etc/felica/train.png \
-    vendor/lge/l01f/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
-    vendor/lge/l01f/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
     vendor/lge/l01f/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
     vendor/lge/l01f/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/l01f/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
@@ -94,6 +97,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/lib/libHDR.so:system/lib/libHDR.so \
     vendor/lge/l01f/proprietary/lib/libmorpho_noise_reduction.so:system/lib/libmorpho_noise_reduction.so \
     vendor/lge/l01f/proprietary/lib/libmorpho_image_stab31.so:system/lib/libmorpho_image_stab31.so \
+    vendor/lge/l01f/proprietary/lib/libmorpho_panorama_wa_4.so:system/lib/libmorpho_panorama_wa_4.so \
+    vendor/lge/l01f/proprietary/lib/libmorpho_panorama_wa_viewer.so:system/lib/libmorpho_panorama_wa_viewer.so \
+    vendor/lge/l01f/proprietary/lib/libmorpho_sensor_fusion_4.so:system/lib/libmorpho_sensor_fusion_4.so \
+    vendor/lge/l01f/proprietary/lib/libmorphoimageconverter_4.so:system/lib/libmorphoimageconverter_4.so \
     vendor/lge/l01f/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/lge/l01f/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/lge/l01f/proprietary/lib/libnfc_ndef.so:system/lib/libnfc_ndef.so \
@@ -122,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
     vendor/lge/l01f/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/lge/l01f/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
-    vendor/lge/l01f/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/lge/l01f/proprietary/vendor/lib/libchromatix_imx132_common.so:system/vendor/lib/libchromatix_imx132_common.so \
     vendor/lge/l01f/proprietary/vendor/lib/libchromatix_imx132_default_video.so:system/vendor/lib/libchromatix_imx132_default_video.so \
     vendor/lge/l01f/proprietary/vendor/lib/libchromatix_imx132_mms_video.so:system/vendor/lib/libchromatix_imx132_mms_video.so \
@@ -172,8 +178,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/vendor/lib/liblistenjni.so:system/vendor/lib/liblistenjni.so \
     vendor/lge/l01f/proprietary/vendor/lib/liblisten.so:system/vendor/lib/liblisten.so \
     vendor/lge/l01f/proprietary/vendor/lib/liblistensoundmodel.so:system/vendor/lib/liblistensoundmodel.so \
-    vendor/lge/l01f/proprietary/vendor/lib/libllvm-a3xx.so:system/vendor/lib/libllvm-a3xx.so \
-    vendor/lge/l01f/proprietary/vendor/lib/libllvm-arm.so:system/vendor/lib/libllvm-arm.so \
     vendor/lge/l01f/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
     vendor/lge/l01f/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
     vendor/lge/l01f/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
@@ -290,4 +294,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd:system/vendor/firmware/BCM20791B5_002.006.013.0011.0027_LGE_A1_PreI2C_NCD_Signed_ORC.ncd \
     vendor/lge/l01f/proprietary/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd:system/vendor/firmware/BCM4335B0_002.001.006.0191.0201_ORC.hcd \
     vendor/lge/l01f/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
-    vendor/lge/l01f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw
+    vendor/lge/l01f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw\
+    vendor/lge/l01f/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
+    vendor/lge/l01f/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so
