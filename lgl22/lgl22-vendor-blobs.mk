@@ -19,11 +19,6 @@ PRODUCT_COPY_FILES := \
     vendor/lge/lgl22/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
 PRODUCT_COPY_FILES += \
-    vendor/lge/lgl22/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
-    vendor/lge/lgl22/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
-    vendor/lge/lgl22/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
-    vendor/lge/lgl22/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
-    vendor/lge/lgl22/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
     vendor/lge/lgl22/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/General_cal.acdb:system/etc/General_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/Global_cal.acdb:system/etc/Global_cal.acdb \
@@ -31,19 +26,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/etc/Hdmi_cal.acdb:system/etc/Hdmi_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/Headset_cal.acdb:system/etc/Headset_cal.acdb \
     vendor/lge/lgl22/proprietary/etc/Speaker_cal.acdb:system/etc/Speaker_cal.acdb \
-    vendor/lge/lgl22/proprietary/etc/felica/air.png:system/etc/felica/air.png \
-    vendor/lge/lgl22/proprietary/etc/felica/id.png:system/etc/felica/id.png \
-    vendor/lge/lgl22/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
-    vendor/lge/lgl22/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
-    vendor/lge/lgl22/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
-    vendor/lge/lgl22/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
-    vendor/lge/lgl22/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
-    vendor/lge/lgl22/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
-    vendor/lge/lgl22/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
-    vendor/lge/lgl22/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
-    vendor/lge/lgl22/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
-    vendor/lge/lgl22/proprietary/etc/felica/money.png:system/etc/felica/money.png \
-    vendor/lge/lgl22/proprietary/etc/felica/train.png:system/etc/felica/train.png \
     vendor/lge/lgl22/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
     vendor/lge/lgl22/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
     vendor/lge/lgl22/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
@@ -58,6 +40,25 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/etc/firmware/venus.b02:system/etc/firmware/venus.b02 \
     vendor/lge/lgl22/proprietary/etc/firmware/venus.b03:system/etc/firmware/venus.b03 \
     vendor/lge/lgl22/proprietary/etc/firmware/venus.b04:system/etc/firmware/venus.b04 \
+    vendor/lge/lgl22/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
+    vendor/lge/lgl22/proprietary/bin/cnd:system/bin/cnd \
+    vendor/lge/lgl22/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/lge/lgl22/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
+    vendor/lge/lgl22/proprietary/bin/mpdecision:system/bin/mpdecision \
+    vendor/lge/lgl22/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/lge/lgl22/proprietary/bin/qcks:system/bin/qcks \
+    vendor/lge/lgl22/proprietary/bin/qmiproxy:system/bin/qmiproxy \
+    vendor/lge/lgl22/proprietary/bin/qmuxd:system/bin/qmuxd \
+    vendor/lge/lgl22/proprietary/bin/qseecomd:system/bin/qseecomd \
+    vendor/lge/lgl22/proprietary/bin/rfs_access:system/bin/rfs_access \
+    vendor/lge/lgl22/proprietary/bin/rild:system/bin/rild \
+    vendor/lge/lgl22/proprietary/bin/rmt_storage:system/bin/rmt_storage \
+    vendor/lge/lgl22/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
+    vendor/lge/lgl22/proprietary/bin/thermal-engine:system/bin/thermal-engine\
+    vendor/lge/lgl22/proprietary/bin/thermald:system/bin/thermald \
+    vendor/lge/lgl22/proprietary/bin/time_daemon:system/bin/time_daemon \
+    vendor/lge/lgl22/proprietary/bin/uimmdl_server:system/bin/uimmdl_server \
+    vendor/lge/lgl22/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/lgl22/proprietary/lib/libvss_dmi_qcci.so:system/lib/libvss_dmi_qcci.so \
     vendor/lge/lgl22/proprietary/lib/libvss_common_iface.so:system/lib/libvss_common_iface.so \
     vendor/lge/lgl22/proprietary/lib/libvss_common_idl.so:system/lib/libvss_common_idl.so \
@@ -69,21 +70,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/lge/lgl22/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
     vendor/lge/lgl22/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
-    vendor/lge/lgl22/proprietary/bin/rmt_storage:system/bin/rmt_storage \
-    vendor/lge/lgl22/proprietary/bin/qmuxd:system/bin/qmuxd \
-    vendor/lge/lgl22/proprietary/lib/libril.so:system/lib/libril.so \
-    vendor/lge/lgl22/proprietary/bin/rild:system/bin/rild \
-    vendor/lge/lgl22/proprietary/bin/netmgrd:system/bin/netmgrd \
-    vendor/lge/lgl22/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
-    vendor/lge/lgl22/proprietary/bin/thermald:system/bin/thermald \
-    vendor/lge/lgl22/proprietary/bin/thermal-engine:system/bin/thermal-engine \
-    vendor/lge/lgl22/proprietary/bin/mpdecision:system/bin/mpdecision \
-    vendor/lge/lgl22/proprietary/bin/cnd:system/bin/cnd \
-    vendor/lge/lgl22/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/lge/lgl22/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
-    vendor/lge/lgl22/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
-    vendor/lge/lgl22/proprietary/bin/irsc_util:system/bin/irsc_util \
-    vendor/lge/lgl22/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/lge/lgl22/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
     vendor/lge/lgl22/proprietary/lib/hw/camera.vendor.msm8974.so:system/lib/hw/camera.vendor.msm8974.so \
     vendor/lge/lgl22/proprietary/lib/libHDR.so:system/lib/libHDR.so \
@@ -292,12 +278,36 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/framework/com.lge.core.jar:system/framework/com.lge.core.jar \
-    vendor/lge/lgl22/proprietary/framework/oem-services.jar:system/framework/oem-services.jar
+    vendor/lge/lgl22/proprietary/framework/oem-services.jar:system/framework/oem-services.jar \
+    vendor/lge/lgl22/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
+    vendor/lge/lgl22/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml
 
 PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/lge/lgl22/proprietary/lib/liblgderp.so:system/lib/liblgderp.so \
     vendor/lge/lgl22/proprietary/lib/libxml2.so:system/lib/libxml2.so
+
+#for felica
+PRODUCT_COPY_FILES += \
+    vendor/lge/lgl22/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
+    vendor/lge/lgl22/proprietary/app/MobileFeliCaClient.apk:system/app/MobileFeliCaClient.apk \
+    vendor/lge/lgl22/proprietary/app/MobileFeliCaMenuApp.apk:system/app/MobileFeliCaMenuApp.apk \
+    vendor/lge/lgl22/proprietary/app/MobileFeliCaSettingApp.apk:system/app/MobileFeliCaSettingApp.apk \
+    vendor/lge/lgl22/proprietary/app/MobileFeliCaWebPluginBoot.apk:system/app/MobileFeliCaWebPluginBoot.apk \
+    vendor/lge/lgl22/proprietary/etc/felica/air.png:system/etc/felica/air.png \
+    vendor/lge/lgl22/proprietary/etc/felica/id.png:system/etc/felica/id.png \
+    vendor/lge/lgl22/proprietary/etc/felica/mfm.cfg:system/etc/felica/mfm.cfg \
+    vendor/lge/lgl22/proprietary/etc/felica/portal_icon.png:system/etc/felica/portal_icon.png \
+    vendor/lge/lgl22/proprietary/etc/felica/bookmark.cfg:system/etc/felica/bookmark.cfg \
+    vendor/lge/lgl22/proprietary/etc/felica/mfc_falp.cfg:system/etc/felica/mfc_falp.cfg \
+    vendor/lge/lgl22/proprietary/etc/felica/mfs.cfg:system/etc/felica/mfs.cfg \
+    vendor/lge/lgl22/proprietary/etc/felica/toku.png:system/etc/felica/toku.png \
+    vendor/lge/lgl22/proprietary/etc/felica/No_ticket.png:system/etc/felica/No_ticket.png \
+    vendor/lge/lgl22/proprietary/etc/felica/common.cfg:system/etc/felica/common.cfg \
+    vendor/lge/lgl22/proprietary/etc/felica/mfc_push.cfg:system/etc/felica/mfc_push.cfg \
+    vendor/lge/lgl22/proprietary/etc/felica/money.png:system/etc/felica/money.png \
+    vendor/lge/lgl22/proprietary/etc/felica/train.png:system/etc/felica/train.png
+
 #for test
 #PRODUCT_COPY_FILES += \
 #    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk
