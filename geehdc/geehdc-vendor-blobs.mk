@@ -171,4 +171,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
     vendor/lge/geehdc/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/lge/geehdc/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
-    vendor/lge/geehdc/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk
+    vendor/lge/geehdc/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
+    vendor/lge/geehdc/proprietary/app/docomoAccountAuthenticator.apk:system/app/docomoAccountAuthenticator.apk \
+    vendor/lge/geehdc/proprietary/lib/libdaaCrypto.so:system/lib/libdaaCrypto.so
