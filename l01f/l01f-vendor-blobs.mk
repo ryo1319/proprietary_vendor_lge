@@ -18,6 +18,11 @@
 PRODUCT_COPY_FILES := \
     vendor/lge/l01f/proprietary/vendor/lib/libtime_genoff.so:obj/lib/libtime_genoff.so
 
+#Docomo Mail
+PRODUCT_COPY_FILES += \
+    vendor/lge/l01f/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
+    vendor/lge/l01f/proprietary/app/docomoAccountAuthenticator.apk:system/app/docomoAccountAuthenticator.apk \
+    vendor/lge/l01f/proprietary/lib/libdaaCrypto.so:system/lib/libdaaCrypto.so
 #felica
 PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/app/FeliCaService.apk:system/app/FeliCaService.apk \
@@ -298,3 +303,4 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw\
     vendor/lge/l01f/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lge/l01f/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so
+
