@@ -310,6 +310,29 @@ PRODUCT_COPY_FILES += \
 
 #for test
 #PRODUCT_COPY_FILES += \
-#    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaMenuMainApp.apk:system/app/MobileFeliCaMenuMainApp.apk
-#    vendor/lge/lgl22/proprietary/earlyuninstallable/MobileFeliCaWebPlugin.apk:system/app/MobileFeliCaWebPlugin.apk
+#    vendor/lge/lgl22/proprietary/app/LgNfc.apk:system/app/LgNfc.apk \
+# LgNfc.apk needs resource of lg's framework...
+
+#for test
+PRODUCT_COPY_FILES += \
+    vendor/lge/lgl22/proprietary/bin/atd:system/bin/atd \
+    vendor/lge/lgl22/proprietary/app/HiddenMenu.apk:system/app/HiddenMenu.apk \
+    vendor/lge/lgl22/proprietary/app/HiddenSIMUnlockMenu.apk:system/app/HiddenSIMUnlockMenu.apk \
+    vendor/lge/lgl22/proprietary/app/LGATCMDService.apk:system/app/LGATCMDService.apk \
+    vendor/lge/lgl22/proprietary/app/LGSmartcardService.apk:system/app/LGSmartcardService.apk \
+    vendor/lge/lgl22/proprietary/framework/com.lge.systemservice.core.jar:system/framework/com.lge.systemservice.core.jar \
+    vendor/lge/lgl22/proprietary/framework/lghiddenlibs.jar:system/framework/lghiddenlibs.jar
+
+PRODUCT_COPY_FILES += \
+   vendor/lge/lgl22/proprietary/lib/libbluedroid.so:system/lib/libbluedroid.so \
+   vendor/lge/lgl22/proprietary/lib/libbroadcast_frame.so:system/lib/libbroadcast_frame.so \
+   vendor/lge/lgl22/proprietary/lib/libdiagd_client.so:system/lib/libdiagd_client.so \
+   vendor/lge/lgl22/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
+   vendor/lge/lgl22/proprietary/lib/libkeygen_lge.so:system/lib/libacdbloader.so \
+   vendor/lge/lgl22/proprietary/lib/liblgdrm.so:system/lib/liblgdrm.so \
+   vendor/lge/lgl22/proprietary/lib/liblgehdcpek.so:system/lib/liblgehdcpek.so \
+   vendor/lge/lgl22/proprietary/lib/libLGnfc_jni_sony.so:system/lib/libLGnfc_jni_sony.so \
+   vendor/lge/lgl22/proprietary/lib/liblgsecclk.so:system/lib/liblgsecclk.so \
+   vendor/lge/lgl22/proprietary/lib/libwvoemprov.so:system/lib/libwvoemprov.so 
+
 
