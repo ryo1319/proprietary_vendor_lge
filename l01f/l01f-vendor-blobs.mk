@@ -47,7 +47,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/etc/felica/money.png:system/etc/felica/money.png \
     vendor/lge/l01f/proprietary/etc/felica/train.png:system/etc/felica/train.png \
     vendor/lge/l01f/proprietary/etc/snfc/auto_polling.cfg:system/etc/snfc/auto_polling.cfg \
-    vendor/lge/l01f/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg \
+    vendor/lge/l01f/proprietary/etc/snfc/rf.cfg:system/etc/snfc/rf.cfg
 
 PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/etc/Bluetooth_cal.acdb:system/etc/Bluetooth_cal.acdb \
@@ -303,4 +303,3 @@ PRODUCT_COPY_FILES += \
     vendor/lge/l01f/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw\
     vendor/lge/l01f/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
     vendor/lge/l01f/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so
-
