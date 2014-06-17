@@ -320,6 +320,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/lgl22/proprietary/app/HiddenSIMUnlockMenu.apk:system/app/HiddenSIMUnlockMenu.apk \
     vendor/lge/lgl22/proprietary/app/LGATCMDService.apk:system/app/LGATCMDService.apk \
     vendor/lge/lgl22/proprietary/app/LGSmartcardService.apk:system/app/LGSmartcardService.apk \
+    vendor/lge/lgl22/proprietary/framework/com.lge.smartcard.jar:system/framework/com.lge.smartcard.jar \
     vendor/lge/lgl22/proprietary/framework/com.lge.systemservice.core.jar:system/framework/com.lge.systemservice.core.jar \
     vendor/lge/lgl22/proprietary/framework/lghiddenlibs.jar:system/framework/lghiddenlibs.jar
 
