@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/lge/geehdc/proprietary/lib/libWVphoneAPI.so:system/lib/libWVphoneAPI.so \
     vendor/lge/geehdc/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
-    vendor/lge/geehdc/proprietary/lib/hw/nfc.default.so:system/lib/hw/nfc.default.so \
     vendor/lge/geehdc/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/lge/geehdc/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/lge/geehdc/proprietary/bin/bridgemgrd:system/bin/bridgemgrd \
@@ -140,7 +139,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/lge/geehdc/proprietary/bin/mpdecision:system/bin/mpdecision \
     vendor/lge/geehdc/proprietary/bin/qosmgr:system/bin/qosmgr \
-    vendor/lge/geehdc/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/lge/geehdc/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
     vendor/lge/geehdc/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
     vendor/lge/geehdc/proprietary/vendor/firmware/keymaster/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
