@@ -154,20 +154,22 @@ PRODUCT_COPY_FILES += \
     vendor/lge/geehdc/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
     vendor/lge/geehdc/proprietary/etc/firmware/wcd9310/wcd9310_anc.bin:system/etc/firmware/wcd9310/wcd9310_anc.bin \
     vendor/lge/geehdc/proprietary/etc/firmware/wcd9310/wcd9310_mbhc.bin:system/etc/firmware/wcd9310/wcd9310_mbhc.bin \
-    vendor/lge/geehdc/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
-    vendor/lge/geehdc/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
-    vendor/lge/geehdc/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
-    vendor/lge/geehdc/proprietary/lib/egl/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
-    vendor/lge/geehdc/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
-    vendor/lge/geehdc/proprietary/lib/libC2D2.so:system/lib/libC2D2.so \
-    vendor/lge/geehdc/proprietary/lib/libc2d2_a3xx.so:system/lib/libc2d2_a3xx.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/lge/geehdc/proprietary/lib/liblgftmitem.so:system/lib/liblgftmitem.so \
-    vendor/lge/geehdc/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
-    vendor/lge/geehdc/proprietary/lib/libllvm-arm.so:system/lib/libllvm-arm.so \
     vendor/lge/geehdc/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
-    vendor/lge/geehdc/proprietary/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
-    vendor/lge/geehdc/proprietary/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
-    vendor/lge/geehdc/proprietary/lib/libgsl.so:system/lib/libgsl.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
+    vendor/lge/geehdc/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so
     vendor/lge/geehdc/proprietary/lib/libemoji_docomo.so:system/lib/libemoji_docomo.so \
     vendor/lge/geehdc/proprietary/app/SPModePushNotifier.apk:system/app/SPModePushNotifier.apk \
     vendor/lge/geehdc/proprietary/app/docomoAccountAuthenticator.apk:system/app/docomoAccountAuthenticator.apk \
